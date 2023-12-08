@@ -50,3 +50,4 @@ jobs:
         run: npx playwright install
       - name: Start unit test
         run: npm run test:ui
+    needs: deploy
