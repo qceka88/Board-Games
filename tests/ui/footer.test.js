@@ -1,6 +1,6 @@
 const {test, expect} = require('@playwright/test');
 
-const pageURL = "http://localhost:8080/"
+const pageURL = "https://qceka88-exam.onrender.com/"
 
 test('Check footer', async ({page}) => {
     await page.goto(pageURL);

@@ -1,5 +1,5 @@
 const {test, expect} = require('@playwright/test');
-const pageURL = "http://localhost:8080/"
+const pageURL = "https://qceka88-exam.onrender.com/"
 
 test('Check header', async ({page}) => {
     await page.goto(pageURL);  // you can replace this URL with any page that includes the header
